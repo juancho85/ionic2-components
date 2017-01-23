@@ -6,23 +6,7 @@
 
 <ion-content padding>
 
-  <div class="gestures"
-    (click)="onElementClicked()">
-    Click me!
-  </div>
-  <br>
-
-  <div class="gestures"
-       (tap)="onElementTapped()">
-    Tap me!
-  </div>
-  <br>
-
-  <div class="gestures"
-       (press)="onElementPressed()"
-       (tap)="onElementTapped()">
-    Long press me!
-  </div>
+  <app-touch-event></app-touch-event>
 
   <ion-grid>
     <ion-row>
